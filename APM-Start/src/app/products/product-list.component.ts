@@ -93,4 +93,7 @@ ngOnInit(): void{
   console.log("in on it");
 }
 
+onRatingClicked(msg: string): void{
+  this.pageTitle = 'Product List: ' + msg;
+}
 }
